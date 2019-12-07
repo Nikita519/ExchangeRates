@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/holo_green_dark"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp">
+
+
+    <TextView
+        android:id="@+id/textViewValute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="1 USD (Доллар США)"
+        android:textSize="20sp"
+        android:paddingLeft="4dp"
+        android:layout_margin="4dp"
+        android:textColor="@android:color/white"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="-2.4"
+        android:shadowDy="2.4"
+        android:shadowRadius="0.01"/>
+
+    <TextView
+        android:id="@+id/textViewRub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="63.72 рубля"
+        android:textSize="20sp"
+        android:layout_margin="4dp"
+        android:paddingLeft="4dp"
+        android:layout_toEndOf="@id/textViewValute"
+        android:textColor="@android:color/white"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="-2.4"
+        android:shadowDy="2.4"
+        android:shadowRadius="0.01"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
